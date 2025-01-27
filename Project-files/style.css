@@ -1,0 +1,21 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+.title {
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  top: 10vh; /* Eleman, ekranın üstünden %10 uzaklıkta */
+  left: 40vw; /* Eleman, ekranın solundan %5 uzaklıkta */
+}
+.title h2 {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
