@@ -1,7 +1,7 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,13 +9,31 @@ body {
 }
 
 .title {
-  width: 500px;
-  height: 100px;
-  position: absolute;
-  top: 10vh; /* Eleman, ekranın üstünden %10 uzaklıkta */
-  left: 40vw; /* Eleman, ekranın solundan %5 uzaklıkta */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .title h2 {
+  font-size: 45px;
+}
+.title .subtitle {
+  color: gray;
+}
+
+.time-line {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+.time-line .timeline-item {
+  text-align: center;
+}
+
+.changelog-btn {
+  display: flex;
+  color: #fff;
+  background-color: black;
+  padding: 15px;
+  border-radius: 15px;
 }/*# sourceMappingURL=style.css.map */
