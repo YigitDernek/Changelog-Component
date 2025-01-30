@@ -2,4 +2,4 @@
 
 Changelog Component
 
-Project URL: [My project](https://github.com/YigitDernek/Changelog-Component)
+Project URL: [My project](https://roadmap.sh/projects/changelog-component)
