@@ -23,15 +23,33 @@ body {
 }
 
 .time-line {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 .time-line .timeline-item {
-  text-align: center;
+  display: flex;
+  gap: 30px;
+  margin: 20px;
+}
+.time-line .date {
+  display: flex;
+  color: gray;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.changelog-btn {
+.arrow {
+  color: #333;
+}
+
+.button-bar {
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
+  justify-content: center;
+}
+.button-bar .changelog-btn {
   color: #fff;
   background-color: black;
   padding: 15px;
